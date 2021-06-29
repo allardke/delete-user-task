@@ -1,0 +1,47 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# dotenv environment variables file
+.env
+test.env
+
+# Visual Studio Code configuration
+.vscode/
+
+# TypeScript build
+dist/
+build/
+
+# Bamboo output
+bamboo-test-results.json
+jest.json
+
+# Test coverage
+coverage/
+
+fakeInvoke.js*
+
+src/*.js
+src/*.js.map
+
+.DS_Store
+
+# Test results
+test-results/
